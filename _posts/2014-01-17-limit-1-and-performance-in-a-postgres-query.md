@@ -26,7 +26,7 @@ performance. `EXPLAIN ANALYZE` is your friend here, as you get both the query
 plan and the actual runtime of the query:
 
 ```sql
-db=> EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC LIMIT 1;
+EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC LIMIT 1;
 
 QUERY PLAN
 --------------------
@@ -39,7 +39,7 @@ Filter: (field2 = value)
 A runtime of over five seconds. How many rows does are we working with?
 
 ```sql
-db=> SELECT COUNT(*) FROM table WHERE field2 = value;
+SELECT COUNT(*) FROM table WHERE field2 = value;
 
   count
 -------
@@ -51,7 +51,7 @@ How long would it take to get ALL THE RECORDS? I dropped the `LIMIT 1` from the
 query:
 
 ```sql
-db=> EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC;
+EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC;
 
 QUERY PLAN
 --------------------
@@ -71,7 +71,7 @@ post](http://dba.stackexchange.com/a/19744) suggested adding conditions to the
 `ORDER BY`. I added `field1` to the ordering and the results were startling:
 
 ```sql
-db=> EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC, field1 LIMIT 1;
+EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC, field1 LIMIT 1;
 
 QUERY PLAN
 --------------------
