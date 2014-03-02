@@ -2,7 +2,7 @@
 layout: post
 title: "ACCU 2011 - Non-Relational Databases"
 description: ""
-category:
+category: presentations
 tags: [databases, accu, accu2011, redis, hbase, mongodb, neo4j]
 ---
 {% include JB/setup %}
@@ -23,7 +23,7 @@ Technology category
     <a href="http://www.slideshare.net/gheavyside/nonrelational-databases-at-accu2011" title="Non-Relational Databases at ACCU2011">Non-Relational Databases at ACCU2011</a>
   </strong>
   <iframe src="http://www.slideshare.net/slideshow/embed_code/7660456?rel=0" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen="" webkitallowfullscreen="" mozallowfullscreen=""> </iframe>
-  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/gheavyside">Gavin Heavyside</a></div>
+  <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/gheavyside" target="_blank">Gavin Heavyside</a></div>
 </div>
 
 
