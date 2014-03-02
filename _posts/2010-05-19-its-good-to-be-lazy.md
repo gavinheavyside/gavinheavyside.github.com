@@ -45,6 +45,8 @@ forget about it until [@t_crayford](http://twitter.com/t_crayford)
 said that he could do better.  Before long he'd posted an improved
 version of the main function:
 
+{% gist 402335 %}
+
 At first I was baffled, but that was mostly down to trying to read it
 on my iPhone after a couple of glasses of wine.  With a clear head and
 a big screen the next day it became obvious how he had replaced my
