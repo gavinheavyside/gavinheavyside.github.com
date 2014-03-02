@@ -41,10 +41,10 @@ The next day I knocked up a
 [Clojure solution](http://github.com/gavinheavyside/lychrels/blob/16e0d357a7b0a32115dfecafcd3b545af07766d2/src/lychrels/core.clj)
 to the problem we'd seen in the dojo.  It was concise, tested, and I
 was fairly pleased with it. I tweeted about it, and was about to
-forget about it until [@t_crayford](http://twitter.com/t_crayford)
+forget about it until [Tom Crayford](http://twitter.com/t_crayford)
 said that he could do better.  Before long he'd posted an improved
 version of the main function:
-#{% gist 402335 %}
+{% gist 402335 %}
 
 At first I was baffled, but that was mostly down to trying to read it
 on my iPhone after a couple of glasses of wine.  With a clear head and
