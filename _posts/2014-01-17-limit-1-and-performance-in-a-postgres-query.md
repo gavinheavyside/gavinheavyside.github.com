@@ -24,7 +24,7 @@ DB to a isolated box, and started to experiment.
 I took the generated SQL of the query, and looked at the query plan and
 performance. `EXPLAIN ANALYZE` is your friend here, as you get both the query
 plan and the actual runtime of the query:
-p
+
 ```SQL
 db=> EXPLAIN ANALYZE SELECT field1 FROM table WHERE field2 = value ORDER BY field3 DESC LIMIT 1;
 
