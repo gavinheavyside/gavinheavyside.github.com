@@ -2,7 +2,7 @@
 layout: post
 title: "Location, Location, Location at ACCU 2013"
 description: ""
-category:
+category: presentations
 tags: [gis, gps, mapping, postgis, location, accu, accu2013]
 ---
 {% include JB/setup %}

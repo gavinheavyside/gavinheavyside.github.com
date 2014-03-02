@@ -3,7 +3,7 @@ layout: post
 title: "DevOps and Infrastructure-As-Code at ACCU 2012"
 description: ""
 category: presentations
-tags: [DevOps, accu, accu2012, chef, vagrant]
+tags: [devops, accu, accu2012, chef, vagrant]
 ---
 {% include JB/setup %}
 

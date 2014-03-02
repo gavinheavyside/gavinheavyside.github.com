@@ -2,7 +2,7 @@
 layout: post
 title: "ACCU 2010 session - Introduction to Hadoop"
 description: ""
-category: 
+category: presentations
 tags: [hadoop, accu, accu2010, mapreduce]
 ---
 {% include JB/setup %}
