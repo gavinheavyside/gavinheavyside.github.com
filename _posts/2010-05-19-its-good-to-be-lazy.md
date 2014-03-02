@@ -44,7 +44,7 @@ was fairly pleased with it. I tweeted about it, and was about to
 forget about it until [@t_crayford](http://twitter.com/t_crayford)
 said that he could do better.  Before long he'd posted an improved
 version of the main function:
-{% gist 402335 %}
+#{% gist 402335 %}
 
 At first I was baffled, but that was mostly down to trying to read it
 on my iPhone after a couple of glasses of wine.  With a clear head and
@@ -52,3 +52,19 @@ a big screen the next day it became obvious how he had replaced my
 naive recursive algorithm with a much more idiomatic lazy sequence
 version that has better performance. 
 
+He defines a function that calculates the next number in the
+sequence, and creates a (infinite) lazy sequence of them using
+`iterate`. It takes 50 numbers from this sequence using `rest` and
+`take` and checks to see if any of them are palindromic using `some`.
+I was initially confused by the `->>` macro, but it is explained 
+[here](http://richhickey.github.com/clojure/clojure.core-api.html#clojure.core/-%3E%3E).
+
+It's going to take me a while to think naturally in Clojure idioms,
+but I think it will be worth it. Paul Graham argues that
+[the truly serious hacker should consider learning Lisp](http://www.paulgraham.com/avg.html),
+and I think he is
+absolutely right. The advantage of being able to think about solutions
+to problems in a different way from the dominant procedural and OO mindset
+can be really valuable, and I agree that even if you don't
+subsequently use Lisp, having learned it will make you a better
+programmer.
