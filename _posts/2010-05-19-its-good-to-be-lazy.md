@@ -37,6 +37,13 @@ JVM and has some [interesting](http://github.com/nathanmarz/cascalog)
 Hadoop for processing and analysing big data sets at
 [Journey Dynamics](http://www.journeydynamics.com).
 
+
+At first I was baffled, but that was mostly down to trying to read it
+on my iPhone after a couple of glasses of wine.  With a clear head and
+a big screen the next day it became obvious how he had replaced my
+naive recursive algorithm with a much more idiomatic lazy sequence
+version that has better performance. 
+
 He defines a function that calculates the next number in the
 sequence, and creates a (infinite) lazy sequence of them using
 `iterate`. It takes 50 numbers from this sequence using `rest` and
