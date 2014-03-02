@@ -7,8 +7,9 @@ tags: [gis, gps, mapping, postgis, location, accu, accu2013]
 ---
 {% include JB/setup %}
 
-Slides from my "Location, Location, Location" talk at ACCU2013 in Bristol on 12
-April 2013.
+Slides from my "Location, Location, Location" talk at
+[ACCU2013](http://accu.org/index.php/conferences/accu_conference_2013) in
+Bristol on 12 April 2013.
 
 The code can be found [here](https://github.com/gavinheavyside/geopostcoder).
 
