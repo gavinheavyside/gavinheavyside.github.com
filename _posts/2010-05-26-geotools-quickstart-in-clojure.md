@@ -24,9 +24,11 @@ which I converted to a
 [leiningen](http://github.com/technomancy/leiningen) project file. The
 [source itself](http://svn.osgeo.org/geotools/tags/2.6.4/demo/example/src/main/java/org/geotools/demo/Quickstart.java) 
 once converted to Clojure looks like this: 
+
 {% gist 415029 %}
 
 And the leiningen project.clj:
+
 {% gist 415031 %}
 
 Running either of the functions pops up a dialog box for you to choose
