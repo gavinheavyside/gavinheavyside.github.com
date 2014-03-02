@@ -10,6 +10,8 @@ tags: [gis, gps, mapping, postgis, location, accu, accu2013]
 Slides from my "Location, Location, Location" talk at ACCU2013 in Bristol on 12
 April 2013.
 
+The code can be found [here](https://github.com/gavinheavyside/geopostcoder).
+
 <div style="width:427px" id="__ss_18682173">
   <strong style="display:block;margin:12px 0 4px">
     <a href="http://www.slideshare.net/gheavyside/location-location-location-18682173" title="Location Location Location">Location Location Location at ACCU 2013</a>
@@ -18,4 +20,3 @@ April 2013.
   <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/gheavyside" target="_blank">Gavin Heavyside</a></div>
 </div>
 
-The code can be found [here](https://github.com/gavinheavyside/geopostcoder).
